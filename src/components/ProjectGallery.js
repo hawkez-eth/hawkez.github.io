@@ -27,7 +27,7 @@ const projects = [
       "A project that I had taken the lead on which is about a photo competion campaign, I worked closely with The Hong Kong Polytechnic University to make sure the layout is neat and clear.",
     link: "https://www.polyu.edu.hk/cpa/polyucampus/index.html/",
     src:
-      "https://antyslash.com/wp-content/uploads/2019/03/10yammi_seize-21d-360x240.jpg",
+      "https://www.polyu.edu.hk/cpa/polyucampus/images/10yammi_seize-21d.jpg",
     tags: "Web",
   },
   {
