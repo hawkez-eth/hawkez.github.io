@@ -34,8 +34,7 @@ const projects = [
     desc:
       "A project that I had taken the lead on which is about a photo competion campaign hosted by The Hong Kong Polytechnic University, I worked closely with the campaign team of the competition of Poly U to make sure the layout is clear and refreshing.",
     link: "https://www.polyu.edu.hk/cpa/polyucampus/index.html/",
-    src:
-      "https://antyslash.com/wp-content/uploads/2019/03/10yammi_seize-21d-360x240.jpg",
+    src: "../../10yammi_seize-21d-360x240.jpg",
     tags: "Web",
   },
   {
@@ -43,7 +42,7 @@ const projects = [
     desc:
       "While ensuring the reputation and credibility of SOUL®️ during the revamp of the brand, my work is to also keep the website running smooth and error-free in order to give our customers the best ecommerce shopping experience.",
     link: "https://soulnation.com/",
-    src: "https://i.ytimg.com/vi/W4jNyiWBHlA/maxresdefault.jpg",
+    src: "../../maxresdefault.jpg",
     tags: "Web",
   },
   /*{
