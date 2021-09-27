@@ -37,7 +37,7 @@ const portfolioCover = () => (
             >
               SOUL®️
             </Link>{" "}
-            managing the ecommerce platform all in one. Previously at{" "}
+            managing the entire Shopify ecommerce platform. Previously at{" "}
             <Link
               color="#805AD5"
               href="https://www.infinmedia.net/"

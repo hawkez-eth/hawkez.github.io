@@ -25,27 +25,29 @@ const selfIntro = () => (
           primarily based in Hong Kong.
         </Text>
         <Text fontSize="xl">
-          Currently, I’m developing the official website at SOUL with an
-          incredible team. Previously, I was a Full Stack Web Developer at
-          InfinMedia.
+          Currently, I’m developing and maintaining the official website for
+          SOUL Electronics with an incredible team. Previously, I was a Full
+          Stack Web Developer at InfinMedia.
         </Text>
         <Text fontSize="xl">
-          Outside of my full-time commitments, I work with a select freelance
-          client base to create amazing digital solutions. I’m passionate about
-          building delightful experiences with the combination of ecommerce,
-          marketing and UI/UX design to make customers and users satisfied when
-          they’re enjoying our services online.
+          As a professional web developer for around three years, I never stop
+          trying to learn new skills or chase for a better approach of writing
+          high quality codes, and I still have a thirst for revolutionary
+          technology like blockchain or crypto. Afterall I’m passionate about
+          building delightful experiences with the combination of high-end,
+          delicate UI/UX design and simple-to-use features to make customers and
+          users satisfied when they’re using the applications I built.
         </Text>
       </Stack>
     </Box>
     <Box flex="1" textAlign={{ base: "left", md: "right" }}>
       <Heading size="md">Stay up-to-date</Heading>
       <Text fontSize="xs" my={2}>
-        <b>Hint:</b> I’m especially active on Linkedin and Twitter.
+        <b>Hint:</b> I’m especially active on Linkedin.
       </Text>
 
       <Box mr={{ base: null, md: "-16px" }} ml={{ base: "-16px", md: null }}>
-        <Link to="https://github.com/importFromAnt" target="_blank">
+        <Link to="https://github.com/saltyMilkis" target="_blank">
           <Button variant="ghost" colorScheme="purple" leftIcon={<FaGithub />}>
             Github
           </Button>
@@ -80,7 +82,7 @@ const selfIntro = () => (
       </Box> */}
 
       <Box mr={{ base: null, md: "-16px" }} ml={{ base: "-16px", md: null }}>
-        <Link to="" target="_blank">
+        <Link to="https://twitter.com/saltyMilkis" target="_blank">
           <Button variant="ghost" colorScheme="purple" leftIcon={<FaTwitter />}>
             Twitter
           </Button>

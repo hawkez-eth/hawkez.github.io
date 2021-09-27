@@ -33,9 +33,7 @@ const Footer = () => (
           </Text>
         </HStack>
         <Button variant="solid" colorScheme="purple" mb={6}>
-          <Link as="a" href="mailto:anty1025@gmail.com">
-            anty1025@gmail.com
-          </Link>
+          <a href="mailto:anty1025@gmail.com">anty1025@gmail.com</a>
         </Button>
       </Box>
       <Text fontSize="xs" opacity=".6" textAlign="center">

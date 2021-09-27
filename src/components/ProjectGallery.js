@@ -5,22 +5,31 @@ import {
   LinkBox,
   LinkOverlay,
   Skeleton,
-  Stack,
   Tag,
   Text,
+  Grid,
+  GridItem,
 } from "@chakra-ui/react"
 import React from "react"
 import { Fade, Slide } from "react-reveal"
 
 const projects = [
-  /*{
-    title: "BunTouEShake",
+  {
+    title: "SOUL Golden Ticket NFT for a BAYC/MAYC Headphone",
     desc:
-      "Full list of information about shops, restaurants and YouTubers. All consolidated on one platform",
-    link: "https://buntoueshake.com/",
-    src: "https://antyslash.com/wp-content/uploads/2020/04/wongYip-360x240.jpg",
+      "Users sign up to be invited to the OpenSea auction for a Golden Ticket NFT created by SOUL, and then redeem for a custom BAYC or MAYC headphone by transferring the ticket to the SOUL forge.",
+    link: "https://www.nftsoulnation.com/#/",
+    src: "../../bayc-nft-cap.png",
     tags: "Web",
-  },*/
+  },
+  {
+    title: "SOULNATION Offical Website",
+    desc:
+      "While ensuring the reputation and credibility of SOUL®️ during the revamp of the brand, my work is to also keep the website running smooth and error-free in order to give our customers the best ecommerce shopping experience.",
+    link: "https://soulnation.com/",
+    src: "../../maxresdefault.jpg",
+    tags: "Web",
+  },
   {
     title: "TWGHs Zonta Club of Kowloon Nursery School",
     desc:
@@ -37,14 +46,6 @@ const projects = [
     src: "../../10yammi_seize-21d-360x240.jpg",
     tags: "Web",
   },
-  {
-    title: "SOUL Offical Website",
-    desc:
-      "While ensuring the reputation and credibility of SOUL®️ during the revamp of the brand, my work is to also keep the website running smooth and error-free in order to give our customers the best ecommerce shopping experience.",
-    link: "https://soulnation.com/",
-    src: "../../maxresdefault.jpg",
-    tags: "Web",
-  },
   /*{
     title: "FE Locker",
     desc:
@@ -58,15 +59,19 @@ const projects = [
 
 const ProjectGallery = () => {
   return (
-    <Stack
-      direction={{ base: "column", md: "row" }}
-      spacing={14}
+    <Grid
+      templateColumns={{
+        base: "repeat(1, 1fr)",
+        sm: "repeat(2, 1fr)",
+        md: "repeat(3, 1fr)",
+      }}
+      gap={6}
       id="project-gallery"
       py={{ base: "70px", md: "140px" }}
     >
       {projects.map((project, index) => {
         return (
-          <Box flex="1" role="group" key={index}>
+          <GridItem role="group" key={index}>
             <Fade bottom duration={1500} delay={500}>
               <Skeleton isLoaded>
                 <LinkBox>
@@ -83,6 +88,7 @@ const ProjectGallery = () => {
                       src={project.src}
                       alt={project.title}
                       height="180px"
+                      objectFit="contain"
                       mx="auto"
                     />
                     {/*<Box
@@ -118,10 +124,10 @@ const ProjectGallery = () => {
                 </LinkBox>
               </Skeleton>
             </Fade>
-          </Box>
+          </GridItem>
         )
       })}
-    </Stack>
+    </Grid>
   )
 }
 export default ProjectGallery
