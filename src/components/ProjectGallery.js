@@ -65,7 +65,8 @@ const ProjectGallery = () => {
         sm: "repeat(2, 1fr)",
         md: "repeat(3, 1fr)",
       }}
-      gap={6}
+      columnGap={6}
+      rowGap={12}
       id="project-gallery"
       py={{ base: "70px", md: "140px" }}
     >
