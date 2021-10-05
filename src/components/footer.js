@@ -25,7 +25,7 @@ const Footer = () => (
           it is for both of us.
         </Text>
         <HStack spacing={2} justify="center" mb={8}>
-          <Avatar name="Anthony Lau" src="">
+          <Avatar name="Anthony Lau" src="../../6072.gif">
             <AvatarBadge boxSize="1em" bg="green.500" />
           </Avatar>
           <Text>

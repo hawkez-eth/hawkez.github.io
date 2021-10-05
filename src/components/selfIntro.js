@@ -82,7 +82,7 @@ const selfIntro = () => (
       </Box> */}
 
       <Box mr={{ base: null, md: "-16px" }} ml={{ base: "-16px", md: null }}>
-        <Link to="https://twitter.com/saltyMilkis" target="_blank">
+        <Link to="https://twitter.com/hodlmycat_eth" target="_blank">
           <Button variant="ghost" colorScheme="purple" leftIcon={<FaTwitter />}>
             Twitter
           </Button>

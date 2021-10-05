@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => (
       <Box>
         <Link to="/">
           {/* https://image.flaticon.com/icons/png/512/826/826963.png */}
-          <Avatar src="../../cool-cat.png" />
+          <Avatar src="../../6072.gif" />
         </Link>
       </Box>
       <Spacer />

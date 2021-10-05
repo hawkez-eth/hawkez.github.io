@@ -65,7 +65,7 @@ const portfolioCover = () => (
       </Stack>
       <HStack spacing={2} justify="left" my={{ base: 8, md: 16 }}>
         <Fade bottom delay={400}>
-          <Avatar name="Anthony Lau" src="">
+          <Avatar name="Anthony Lau" src="../../6072.gif">
             <AvatarBadge boxSize="1em" bg="green.500" />
           </Avatar>
           <Text fontSize="14px">

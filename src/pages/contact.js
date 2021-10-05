@@ -85,7 +85,7 @@ const contact = () => (
     <Box p={8} color="#000">
       <Container maxW="container.lg">
         <HStack align="center" justify="center" spacing={8}>
-          <Link to="">
+          <Link to="https://github.com/saltyMilkis" target="_blank">
             <IconButton
               size="lg"
               variant="ghost"
@@ -94,7 +94,10 @@ const contact = () => (
             ></IconButton>
           </Link>
 
-          <Link to="">
+          <Link
+            to="https://www.linkedin.com/in/anthony-lau-201749146/"
+            target="_blank"
+          >
             <IconButton
               size="lg"
               variant="ghost"
@@ -103,16 +106,7 @@ const contact = () => (
             ></IconButton>
           </Link>
 
-          <Link to="">
-            <IconButton
-              size="lg"
-              variant="ghost"
-              colorScheme="purple"
-              icon={<FaFacebook />}
-            ></IconButton>
-          </Link>
-
-          <Link to="">
+          <Link to="https://twitter.com/hodlmycat_eth" target="_blank">
             <IconButton
               size="lg"
               variant="ghost"
