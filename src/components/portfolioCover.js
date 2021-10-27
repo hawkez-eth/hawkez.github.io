@@ -23,13 +23,13 @@ const portfolioCover = () => (
     <Box flex="1">
       <Stack spacing={8}>
         <Fade bottom delay={100}>
-          <Heading as="h1" size="4xl">
-            Web Developer
+          <Heading as="h1" size="3xl">
+            Web & Blockchain Developer
           </Heading>
         </Fade>
         <Fade bottom delay={200}>
           <Text fontSize="xl">
-            Currently Principal Web Developer at{" "}
+            Currently Principal Web & Blockchain Developer at{" "}
             <Link
               color="#805AD5"
               href="https://soulnation.com/"
@@ -37,7 +37,8 @@ const portfolioCover = () => (
             >
               SOUL®️
             </Link>{" "}
-            managing the entire Shopify ecommerce platform. Previously at{" "}
+            managing the entire ecommerce platform and several blockchain
+            projects on Ethereum. Previously at{" "}
             <Link
               color="#805AD5"
               href="https://www.infinmedia.net/"

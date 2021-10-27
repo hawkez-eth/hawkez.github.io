@@ -21,13 +21,14 @@ const selfIntro = () => (
       </Heading>
       <Stack spacing={6}>
         <Text fontSize="xl">
-          My name is Anthony Lau. I work as a Front-end &amp; Back-end developer
-          primarily based in Hong Kong.
+          My name is Anthony Lau. I work as a Full Stack Web & Blockchain
+          developer primarily based in Hong Kong.
         </Text>
         <Text fontSize="xl">
-          Currently, I’m developing and maintaining the official website for
-          SOUL Electronics with an incredible team. Previously, I was a Full
-          Stack Web Developer at InfinMedia.
+          Currently, I’m building reliable applications on Ethereum by
+          developing smart contracts with Solidity, and also maintaining the
+          official website for SOULNATION with an incredible team. Previously, I
+          was a Full Stack Web Developer at InfinMedia.
         </Text>
         <Text fontSize="xl">
           As a professional web developer for around three years, I never stop

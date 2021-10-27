@@ -37,7 +37,7 @@ const designNature = () => (
       <Text opacity="0.6">
         Daily duty to write Human-Understandable codes with the neatest and
         cleanest manner possible, it's my responsibility to strive for the
-        balance between readibility and specialty.
+        balance between Functionality and Usability.
       </Text>
     </Box>
   </Stack>
