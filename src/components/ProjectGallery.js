@@ -19,7 +19,7 @@ const projects = [
     desc:
       "Users connect their MetaMask wallet to sign up for the OpenSea auction of two Golden Ticket NFTs created by SOUL, in order to redeem a custom BAYC or MAYC headphone by passing the verification of the NFT ownership and transferring the ticket to the SOUL's forge.",
     link: "https://www.nftsoulnation.com/#/",
-    src: "../../bayc-nft-cap.png",
+    src: "../../bayc-nft-newest.png",
     tags: "Web",
   },
   {
