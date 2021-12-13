@@ -15,7 +15,7 @@ import { Fade, Slide } from "react-reveal"
 
 const projects = [
   {
-    title: "OpenSea Auction for SOUL Golden Ticket NFTs",
+    title: "OpenSea Auction for SOUL Golden Ticket NFT",
     desc:
       "Users connect their MetaMask wallet to sign up for the OpenSea auction of two Golden Ticket NFTs created by SOUL, in order to redeem a custom BAYC or MAYC headphone by passing the verification of the NFT ownership and transferring the ticket to the SOUL's forge.",
     link: "https://www.nftsoulnation.com/#/",
