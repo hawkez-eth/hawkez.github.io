@@ -106,7 +106,7 @@ const contact = () => (
             ></IconButton>
           </Link>
 
-          <Link to="https://twitter.com/kilugon_eth" target="_blank">
+          <Link to="https://twitter.com/0xDevAnt" target="_blank">
             <IconButton
               size="lg"
               variant="ghost"
