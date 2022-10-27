@@ -14,10 +14,10 @@ const selfIntro = () => (
   >
     <Box flex="1">
       <Text size="xs" textTransform="uppercase" opacity="0.4">
-        Nice to meet you
+        Howdy
       </Text>
       <Heading size="2xl" mt={2} mb={8}>
-        Hi there, I’m Ant
+        I’m Ant
       </Heading>
       <Stack spacing={6}>
         <Text fontSize="xl">
@@ -25,9 +25,9 @@ const selfIntro = () => (
           developer based in Hong Kong.
         </Text>
         <Text fontSize="xl">
-          Currently, I’m building reliable applications on Ethereum and Polkadot by
-          developing smart contracts with Solidity with an incredible team. Previously, I
-          was Head Of Blockchain at SOUL®️.
+          Currently, I’m building reliable decentralized applications(DApps) on
+          Ethereum and Polkadot by developing smart contracts in Solidity with
+          an incredible team. Previously, I was Head Of Blockchain at SOUL®️.
         </Text>
         <Text fontSize="xl">
           As a professional web developer for over three years, I never stop

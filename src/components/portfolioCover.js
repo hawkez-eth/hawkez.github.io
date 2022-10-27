@@ -37,16 +37,16 @@ const portfolioCover = () => (
             >
               QuantBlock
             </Link>{" "}
-            developing several novel Defi & NFT
-            projects on Ethereum & Polkadot. Previously at{" "}
+            building several novel Defi & NFT projects on Ethereum & Polkadot.
+            Previously at{" "}
             <Link
               color="#805AD5"
               href="https://soulnation.com/"
               target="_blank"
             >
-              SOUL®️ as Head Of Blockchain
-            </Link>
-            .
+              SOUL®️
+            </Link>{" "}
+            as Head Of Blockchain.
           </Text>
         </Fade>
         <Fade bottom delay={300}>

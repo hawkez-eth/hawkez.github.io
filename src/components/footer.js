@@ -19,10 +19,11 @@ const Footer = () => (
           Let's work together
         </Heading>
         <Text mb={8} fontSize="xl">
-          If you have any cool DApps idea in mind or you need some
-          consultation on frontend, backend, smart contract development or even NFT projects, feel free to contact me.
-          Currently my time books quickly, so the sooner you write, the better
-          it is for both of us.
+          Whenever a cool Web2/Web3 idea comes to your mind and you want some
+          consultation on either the protocol design, tech development on
+          frontend, backend and smart contract, or even a NFT launch, feel free
+          to contact me. Currently my time books quickly, so the sooner you
+          write, the better it is for both of us.
         </Text>
         <HStack spacing={2} justify="center" mb={8}>
           <Avatar name="Anthony Lau" src="../../bobu.png">
