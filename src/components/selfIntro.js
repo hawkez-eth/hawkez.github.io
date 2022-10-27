@@ -22,22 +22,27 @@ const selfIntro = () => (
       <Stack spacing={6}>
         <Text fontSize="xl">
           My name is Anthony Lau. I work as a Full Stack Web & Blockchain
-          developer primarily based in Hong Kong.
+          developer based in Hong Kong.
         </Text>
         <Text fontSize="xl">
-          Currently, I’m building reliable applications on Ethereum by
-          developing smart contracts with Solidity, and also maintaining the
-          official website for SOULNATION with an incredible team. Previously, I
-          was a Full Stack Web Developer at InfinMedia.
+          Currently, I’m building reliable applications on Ethereum and Polkadot by
+          developing smart contracts with Solidity with an incredible team. Previously, I
+          was Head Of Blockchain at SOUL®️.
         </Text>
         <Text fontSize="xl">
-          As a professional web developer for around three years, I never stop
-          trying to learn new skills or chase for a better approach of writing
-          high quality codes, and I still have a thirst for revolutionary
-          technology like blockchain or crypto. Afterall I’m passionate about
-          building delightful experiences with the combination of high-end,
-          delicate UI/UX design and simple-to-use features to make customers and
-          users satisfied when they’re using the applications I built.
+          As a professional web developer for over three years, I never stop
+          trying to keep up with new skillset and to chase for a better approach
+          of writing quality codes, not to mention how more curious I become
+          after learning about emerging technologies like blockchain, crypto,
+          DeFi and NFT. Throughout my career, the more I discover and absorb
+          from understanding different aspects of website and blockchain
+          technology, the more I found how vast this ocean could be. With that
+          being said, I am confident to say that I just found myself become
+          nothing but more eager than ever to dig deeper and deeper, and my goal
+          will always stay the same, keep learning as long as I am curious. So,
+          feel free to contact me if you are looking for an open-minded
+          visionary but at the same time a responsible and competent executor
+          who has a huge belief in blockchain and crypto.
         </Text>
       </Stack>
     </Box>
@@ -48,7 +53,7 @@ const selfIntro = () => (
       </Text>
 
       <Box mr={{ base: null, md: "-16px" }} ml={{ base: "-16px", md: null }}>
-        <Link to="https://github.com/saltyMilkis" target="_blank">
+        <Link to="https://github.com/0xdevant" target="_blank">
           <Button variant="ghost" colorScheme="purple" leftIcon={<FaGithub />}>
             Github
           </Button>
@@ -57,7 +62,7 @@ const selfIntro = () => (
 
       <Box mr={{ base: null, md: "-16px" }} ml={{ base: "-16px", md: null }}>
         <Link
-          to="https://www.linkedin.com/in/anthony-lau-201749146/"
+          to="https://www.linkedin.com/in/anthony-lau-web3/"
           target="_blank"
         >
           <Button

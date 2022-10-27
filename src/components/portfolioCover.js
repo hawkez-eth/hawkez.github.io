@@ -29,22 +29,22 @@ const portfolioCover = () => (
         </Fade>
         <Fade bottom delay={200}>
           <Text fontSize="xl">
-            Currently Principal Web & Blockchain Developer at{" "}
+            Currently a Senior Blockchain Developer at{" "}
+            <Link
+              color="#805AD5"
+              href="https://quantblock.com/"
+              target="_blank"
+            >
+              QuantBlock
+            </Link>{" "}
+            developing several novel Defi & NFT
+            projects on Ethereum & Polkadot. Previously at{" "}
             <Link
               color="#805AD5"
               href="https://soulnation.com/"
               target="_blank"
             >
-              SOUL®️
-            </Link>{" "}
-            managing the entire ecommerce platform and several blockchain
-            projects on Ethereum. Previously at{" "}
-            <Link
-              color="#805AD5"
-              href="https://www.infinmedia.net/"
-              target="_blank"
-            >
-              InfinMedia
+              SOUL®️ as Head Of Blockchain
             </Link>
             .
           </Text>
@@ -66,7 +66,7 @@ const portfolioCover = () => (
       </Stack>
       <HStack spacing={2} justify="left" my={{ base: 8, md: 16 }}>
         <Fade bottom delay={400}>
-          <Avatar name="Anthony Lau" src="../../6072.gif">
+          <Avatar name="Anthony Lau" src="../../bobu.png">
             <AvatarBadge boxSize="1em" bg="green.500" />
           </Avatar>
           <Text fontSize="14px">
