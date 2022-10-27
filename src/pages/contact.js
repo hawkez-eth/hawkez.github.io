@@ -54,11 +54,11 @@ const contact = () => (
           How I work
         </Text>
         <Heading size="xl" my={2}>
-          Profitable development
+          Sustainable(i.e. Profitable) development
         </Heading>
         <Text fontSize="xl" textAlign="left">
-          As a developer with business background I’m always focusing on
-          creating experiences, which are pleasant and profitable at the same
+          As a professional developer with business mindset, I’m always focusing
+          on creating experiences which are pleasant yet sustainable at the same
           time. I start every job with detailed questions about your business
           and customers before I even start thinking about any digital
           solutions.
@@ -71,7 +71,7 @@ const contact = () => (
         spacing={6}
       >
         <Text fontSize="xl">
-          You can also just send me an <b>email</b> or a <b>tweet</b>.
+          You could also just send me an email or shoot me a DM on Twitter.
         </Text>
         <Box>
           <Button colorScheme="purple" variant="ghost" size="lg">
