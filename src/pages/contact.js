@@ -12,9 +12,11 @@ import { Link } from "gatsby"
 import React from "react"
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
 import Header from "../components/header"
+import SEO from "../components/seo"
 
 const contact = () => (
   <>
+    <SEO title="Contact" />
     <Header />
     <Box mx="auto" maxW={1100} p={[6, 12, 12, 12, null]} mt={20} mb={10}>
       <Stack
@@ -85,7 +87,7 @@ const contact = () => (
     <Box p={8} color="#000">
       <Container maxW="container.lg">
         <HStack align="center" justify="center" spacing={8}>
-          <Link to="https://github.com/saltyMilkis" target="_blank">
+          <Link to="https://github.com/0xdevant" target="_blank">
             <IconButton
               size="lg"
               variant="ghost"
@@ -95,7 +97,7 @@ const contact = () => (
           </Link>
 
           <Link
-            to="https://www.linkedin.com/in/anthony-lau-201749146/"
+            to="https://www.linkedin.com/in/anthony-lau-web3/"
             target="_blank"
           >
             <IconButton
