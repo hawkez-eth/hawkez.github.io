@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A portfolio developed using React.js & Gatsby.js framework",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Anthony Lau <0xdevant@gmail.com>",
   "dependencies": {
     "@chakra-ui/gatsby-plugin": "^1.0.1",
     "@chakra-ui/icons": "^1.0.5",
