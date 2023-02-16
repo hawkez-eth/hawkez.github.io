@@ -2,7 +2,7 @@ import { Box, Button, Heading, SimpleGrid, Stack, Text } from "@chakra-ui/react"
 import { Link } from "gatsby"
 import React from "react"
 
-const developFlow = () => (
+const project = () => (
   <Box>
     <Stack
       direction={{ base: "column", md: "row" }}
@@ -17,12 +17,12 @@ const developFlow = () => (
           Develop Flow
         </Text>
         <Heading size="xl" my={2}>
-          Gather. Analysis. Implement. Continue.
+          Gather. Analysis. Implement. Iterate.
         </Heading>
         <Text opacity="0.6" fontSize="lg">
-          Always trying to write efficient code at the most neat and clean
-          manner, also always strive for a balance between readibility and
-          speciality.
+          Never tired of developing resilient codes with the cleanest manner
+          possible. It's my responsibility to strive for the balance between
+          Functionality and User Experience.
         </Text>
       </Box>
       <Box flex="1" textAlign="right">
@@ -97,4 +97,4 @@ const developFlow = () => (
   </Box>
 )
 
-export default developFlow
+export default project

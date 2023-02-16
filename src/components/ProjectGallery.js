@@ -15,35 +15,35 @@ import { Fade, Slide } from "react-reveal"
 
 const projects = [
   {
+    id: 1,
     title: "OpenSea Auction for SOUL Golden Ticket NFT",
     desc:
       "Users connect their MetaMask wallet to sign up for the OpenSea auction of two Golden Ticket NFTs created by SOUL, in order to redeem a custom BAYC or MAYC headphone by passing the verification of the NFT ownership and transferring the ticket to the SOUL's forge.",
     link: "https://www.nftsoulnation.com/#/",
-    src: "../../bayc-nft-newest.png",
     tags: "Web",
   },
   {
+    id: 2,
     title: "SOULNATION Offical Website",
     desc:
       "While ensuring the reputation and credibility of SOUL®️ during the revamp of the brand, my work is to also keep the website running smooth and error-free in order to give our customers the best ecommerce shopping experience.",
     link: "https://soulnation.com/",
-    src: "../../maxresdefault.jpg",
     tags: "Web",
   },
   {
+    id: 3,
     title: "TWGHs Zonta Club of Kowloon Nursery School",
     desc:
       "As a developer, my job is to make sure the requirements about the design and copywriting provided by clients are fully addressed, and have this website presented in a way that fulfills RWD but also looks lovely and energetic at the same time.",
     link: "https://zckns.tungwahcsd.org/tc/page/home-page",
-    src: "../../60601c9f5c6a4.png",
     tags: "Web",
   },
   {
+    id: 4,
     title: "PolyU Photo Competition",
     desc:
       "A project that I had taken the lead on which is about a photo competion campaign hosted by The Hong Kong Polytechnic University, I worked closely with the campaign team of the competition of Poly U to make sure the layout is clear and refreshing.",
     link: "https://www.polyu.edu.hk/cpa/polyucampus/index.html/",
-    src: "../../10yammi_seize-21d-360x240.jpg",
     tags: "Web",
   },
   /*{
@@ -86,7 +86,7 @@ const ProjectGallery = () => {
                         boxShadow:
                           "0 1px 2px rgb(0 0 0 / 5%), 0 15px 30px rgb(0 0 0 / 10%)",
                       }}
-                      src={project.src}
+                      src={`../../projects/${project.id}.png`}
                       alt={project.title}
                       height="180px"
                       objectFit="contain"

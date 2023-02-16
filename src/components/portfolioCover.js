@@ -37,7 +37,7 @@ const portfolioCover = () => (
             >
               QuantBlock
             </Link>{" "}
-            building several novel Defi & NFT projects on Ethereum & Polkadot.
+            building novel Defi & NFT projects on Ethereum & Polkadot.
             Previously at{" "}
             <Link
               color="#805AD5"
@@ -66,7 +66,7 @@ const portfolioCover = () => (
       </Stack>
       <HStack spacing={2} justify="left" my={{ base: 8, md: 16 }}>
         <Fade bottom delay={400}>
-          <Avatar name="Anthony Lau" src="../../bobu.png">
+          <Avatar name="Anthony Lau" src="../../tornado-cash-logo.png">
             <AvatarBadge boxSize="1em" bg="green.500" />
           </Avatar>
           <Text fontSize="14px">

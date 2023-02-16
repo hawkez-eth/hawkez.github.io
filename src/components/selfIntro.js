@@ -61,10 +61,7 @@ const selfIntro = () => (
       </Box>
 
       <Box mr={{ base: null, md: "-16px" }} ml={{ base: "-16px", md: null }}>
-        <Link
-          to="https://www.linkedin.com/in/anthony-lau-web3/"
-          target="_blank"
-        >
+        <Link to="https://www.linkedin.com/in/ant-web3/" target="_blank">
           <Button
             variant="ghost"
             colorScheme="purple"

@@ -21,7 +21,7 @@ const developFlow = () => (
         </Fade>
         <Fade bottom duration={1000} delay={400}>
           <Heading size="xl" my={2}>
-            Gather. Analysis. Implement. Continue.
+            Gather. Analysis. Implement. Iterate.
           </Heading>
         </Fade>
         <Fade bottom duration={1000} delay={500}>
@@ -105,7 +105,7 @@ const developFlow = () => (
       <Fade bottom duration={1000} delay={800}>
         <Box>
           <Heading size="xl" my={2}>
-            Continue
+            Iterate
           </Heading>
           <Text fontSize="lg">
             <b>Transparent process</b>. Complete overview of my development

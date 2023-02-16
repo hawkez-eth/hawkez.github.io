@@ -15,13 +15,13 @@ const IndexPage = () => (
     <SEO title="Home" />
     <PortfolioCover />
     <DevelopFlow />
-    <Divider d={{ base: "none", md: "block" }} />
+    <Divider display={{ base: "none", md: "block" }} />
     <Fade bottom duration={1500}>
       <DesignNature />
     </Fade>
-    <Divider d={{ base: "none", md: "block" }} />
+    <Divider display={{ base: "none", md: "block" }} />
     <ProjectGallery />
-    <Divider d={{ base: "none", md: "block" }} />
+    <Divider display={{ base: "none", md: "block" }} />
     <Fade bottom duration={1500}>
       <SelfIntro />
     </Fade>
